@@ -1,0 +1,27 @@
+{
+  "env": {
+    "test": {
+      "plugins": ["istanbul"]
+    }
+  },
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "Atoms": "./src/components/Atoms",
+          "Molecules": "./src/components/Molecules",
+          "Organisms": "./src/components/Organisms",
+          "Pages": "./pages",
+          "Services": "./src/services",
+          "Server": "./server",
+          "static": "./public/static",
+          "Styled": "./src/styled",
+          "Lib": "./src/lib"
+        }
+      }
+    ]
+  ]
+}

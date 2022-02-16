@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es6",
+    "module": "commonjs",
+    "paths": {
+      "Pages/*": ["pages/*"],
+      "Atoms/*": ["src/components/Atoms/*"],
+      "Molecules/*": ["src/components/Molecules/*"],
+      "Organisms/*": ["src/components/Organisms/*"],
+      "Services/*": ["src/services/*"],
+      "Styles/*": ["src/styles/*"],
+      "Lib/*": ["src/lib/*"]
+    }
+  },
+  "exclude": ["node_modules", "build"]
+}
